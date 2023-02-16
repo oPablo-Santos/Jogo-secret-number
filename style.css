@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Julee&display=swap");
+
+:root {
+  --font-family: "Julee", cursive;
+  --primary-color: #03001c;
+}
+
+body {
+  background: rgb(48, 30, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(48, 30, 103, 1) 0%,
+    rgba(182, 234, 218, 1) 100%
+  );
+  color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.mensagem {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.box {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 3rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 5rem;
+}
+
+.btn-jogar {
+  margin: 0 40% ;
+  padding: 8px 10px;
+  border: 2px solid ;
+  background: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
